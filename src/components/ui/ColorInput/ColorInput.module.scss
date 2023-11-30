@@ -1,0 +1,11 @@
+.inputColor {
+	@apply absolute h-16 w-16 2xl:h-20 2xl:w-20 bg-transparent cursor-pointer border-none;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	&::-webkit-color-swatch {
+		@apply rounded-xl border-none;
+	}
+}
